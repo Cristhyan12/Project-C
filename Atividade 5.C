@@ -1,17 +1,21 @@
 #include <stdio.h>
-
-int main() {
-    int a,ant,suc;
-    
-    printf("Digite um numero inteiro: ");
-    scanf("%d", &a);
-    
-    ant = a - 1;
-    
-    suc = a + 1;
-    
-    printf("O antecessor eh: %d\n", ant);
-    printf("O sucessor eh: %d", suc);
-    
-    return 0;
+int main(){
+	float a, b, c, media;
+	printf("Digite o primeiro numero:   ");
+	scanf("%f",a);
+	printf("Digite o segundo numero:   ");
+	scanf("%f",b);
+	printf("Digite o terceiro numero:   ");
+	scanf("%f",c);
+	 
+	 media = (a+b+c) /3;
+	 
+	 
+	 printf("A media aritimetica dos tres numeros eh: %f",media);
+	 
+	 return 0;
+	
+	
+	
+	
 }
